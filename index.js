@@ -2,15 +2,7 @@
 // So we don't have ridiculous errors.
 window.onload = function() {
     // Initialize Firebase
-    var firebaseConfig = {
-      apiKey: "AIzaSyAhJ-m9qJnmA8L6PTwd-W3K3T7JgCPBBkI",
-      authDomain: "navatheja-chat.firebaseapp.com",
-      projectId: "navatheja-chat",
-      storageBucket: "navatheja-chat.appspot.com",
-      messagingSenderId: "386625085742",
-      appId: "1:386625085742:web:2d50b89d07259a29635abf",
-      measurementId: "G-DR7YK74KX7"
-    };
+    
     // Initialize Firebase
     firebase.initializeApp(firebaseConfig);
     
